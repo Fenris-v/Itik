@@ -95,6 +95,10 @@
     clear:both;
 }
 
+
+
+
+/*TODO: content*/
 .innerTryNow__rates h2 {
     text-align: center;
     color: #000000;
@@ -110,23 +114,39 @@
     width: 32%;
     display: inline-block;
     text-align: center;
-
     /*todo: delete*/
     border: 1px solid red;
+    height: 370px;
 }
 
 .innerTryNow__rates__item__current img {
     height: 90px;
+    margin: 20px auto;
 }
-
-
 
 .innerTryNow__rates__item__link {
     border: 2px solid #0e82e2;
+    width: fit-content;
+    margin: 30px auto;
 }
 
 .innerTryNow__rates__item__current a {
     text-decoration: none;
-    text-align: center;
     font-weight: bold;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    display: inline-block;
+    color: #000000;
+    vertical-align: bottom;
+}
+
+.innerTryNow__rates__item__current a:hover {
+    background: #0e82e2;
+    color: #FFFFFF;
+    /*TODO: transition*/
+}
+
+.innerTryNow__rates__item__current:hover {
+    background: #f9f9f9;
+    /*TODO: transition*/
 }
