@@ -1,0 +1,132 @@
+.topNav__link_cta_yellow {
+    color: #ffac00;
+    border: 2px solid;
+}
+
+.topNav__link_cta_yellow:hover{
+    background: #ffac00;
+    color: #fff;
+}
+
+.topNav__item.parent.parent__point:before {
+    content:"\2022";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 18px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    color: #ffac00;
+}
+
+.topNav_v2 .topNav_2levelList a{
+    color: #ffac00;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topNav__link_yellow:hover:after{
+    background: #ffac00;
+}
+
+.topNav_v2 .topNav_2levelList_yellow a{
+    color: #ffac00;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topNav_2levelList_yellow a:hover{
+    color: #ffac00;
+    text-decoration: underline;
+}
+
+.hamburger__line_yellow {
+    background: #ffac00;
+}
+
+.ineerPageTop {
+    padding: 75px 0 120px 0;
+    background: url(../images/dots-pattern.jpg) left bottom repeat-x;
+}
+
+.erp-solution-section__head__inline {
+    display: block;
+    text-align: center;
+}
+
+
+.erp-solution-section__ico_big {
+    display: block;
+    width: auto;
+    text-align: center;
+}
+
+.erp-solution-section__title_inline {
+    display: block;
+}
+
+.erp-solution-section__head__inline p {
+    font-weight: bold;
+}
+
+.erp-solution-section__images {
+    width: 100%;
+}
+
+.erp-solution-section__images__item {
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+}
+
+.erp-solution-section__images__item span {
+    width: 116px;
+    height: 44px;
+    color: #ffad00;
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: oblique;
+}
+
+.container::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.innerTryNow__rates h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 42px;
+    padding: 50px;
+}
+
+.innerTryNow__rates__item {
+    width: 100%;
+}
+
+.innerTryNow__rates__item__current {
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+
+    /*todo: delete*/
+    border: 1px solid red;
+}
+
+.innerTryNow__rates__item__current img {
+    height: 90px;
+}
+
+
+
+.innerTryNow__rates__item__link {
+    border: 2px solid #0e82e2;
+}
+
+.innerTryNow__rates__item__current a {
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
