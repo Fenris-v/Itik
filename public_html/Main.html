@@ -37,9 +37,10 @@
         display: block;
     }</style>
 
-    <link rel="stylesheet" href="/templates/sap/js/OwlCarousel2-2.2.1/dist/assets/owl.castom.carousel.min.css">
-    <link rel="stylesheet" href="/templates/sap/js/OwlCarousel2-2.2.1/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="js/OwlCarousel2-2.2.1/dist/assets/owl.castom.carousel.min.css">
+    <link rel="stylesheet" href="js/OwlCarousel2-2.2.1/dist/assets/owl.theme.default.min.css">
     <!--<link rel="stylesheet" href="--><!--css/owl.carousel.min.css">-->
+
     <link rel="stylesheet" href="/templates/sap/FlexSlider/flexslider-custom.css">
     <link rel="stylesheet" href="/templates/sap/Remodal-1.1.1/src/remodal.css">
     <link rel="stylesheet" href="/templates/sap/Remodal-1.1.1/src/remodal-default-theme.css">
@@ -80,7 +81,7 @@
 
 <header class="header header_margin">
 
-    <div class="container_fixed stykyNav" id="ngjlvBar">
+    <div class="container_fixed stykyNav" id="navBar">
         <div class="container">
             <div class="logoWrapper">
                 <a href="/" title="На главную">
@@ -306,60 +307,120 @@
 
 <section class="section why">
     <div class="container">
-        <div class="why__title">
-            <h2>Почему это важно?</h2>
-        </div>
+        <h2>Почему это важно?</h2>
         <div class="why_half">
             <div class="why_half__content">
                 <div class="why_half__icon">
-                    <img src="dsfgsdg">
+                    <img src="images/info.png">
                 </div>
                 <div class="why_half__text">
-                    <p>dsffkmsdfkmlskf</p>
+                    <p>Точная информация о состоянии дел компании всегда под рукой.</p>
                 </div>
             </div>
             <div class="why_half__content">
                 <div class="why_half__icon">
-                    <img src="dsfgsdg">
+                    <img src="images/list.png">
                 </div>
                 <div class="why_half__text">
-                    <p>dsffkmsdfkmlskf</p>
+                    <p>Наглядная и красивая отчетность, которую просто понимать и не стыдно показать.</p>
                 </div>
             </div>
         </div>
-
+        <hr>
         <div class="why_half">
             <div class="why_half__content">
                 <div class="why_half__icon">
-                    <img src="dsfgsdg">
+                    <img src="images/eye.png">
                 </div>
                 <div class="why_half__text">
-                    <p>dsffkmsdfkmlskf</p>
+                    <p>Позволяет увидеть неочевидные закономерности, влияющие на бизнес (преднастроенные методологии
+                        анализа и отражения данных).</p>
                 </div>
             </div>
             <div class="why_half__content">
                 <div class="why_half__icon">
-                    <img src="dsfgsdg">
+                    <img src="images/formula.png">
                 </div>
                 <div class="why_half__text">
-                    <p>dsffkmsdfkmlskf</p>
+                    <p>Моделирование будущего компании, опираясь на встроенные в программу математичнские модели.</p>
                 </div>
             </div>
         </div>
         <div class="why__title">
             <h2>Решения</h2>
         </div>
-        <div class="why_half">
-            <div class="why_half__imageBig">
-                <img src="fdgdgdf">
+        <div class="owl-carousel owl-theme" id="slider__container">
+            <div class="why_half__solutions">
+                <div class="why_half__imageBig">
+                    <div class="why_half__label">
+                        <img src="images/finance.png">
+                    </div>
+                    <img src="images/notebook.png">
+                </div>
+                <div class="why_half__list">
+                    <p><span>Упрощение процесса финансового планирования для всех бизнес-областей и уровней.</span></p>
+                    <div class="why_half__listLabel"><img src="images/tick-inside-circle.png"></div>
+                    <div class="why_half__listContent"><p>Планирование на основе данных, полученных из надежных систем,
+                        в реальном времени.</p>
+                    </div>
+                    <div class="why_half__listLabel"><img src="images/tick-inside-circle.png"></div>
+                    <div class="why_half__listContent"><p>Автоматическое определение тенденций и зависимостей с помощью
+                        удобной технологии машинного
+                        обучения.</p></div>
+                    <div class="why_half__listLabel"><img src="images/tick-inside-circle.png"></div>
+                    <div class="why_half__listContent"><p>Повышение точности данных и доверия пользователей с помощью
+                        единого решения для всей
+                        аналитики.</p></div>
+                </div>
             </div>
-            <div class="why_half__list">
-                <p>dsfjdesgjdfkogjdfjgd</p>
-                <ul>
-                    <li>gdfgfd</li>
-                    <li>fdgfdgd</li>
-                    <li>rtertet</li>
-                </ul>
+
+            <div class="why_half__solutions ">
+                <div class="why_half__imageBig">
+                    <div class="why_half__label">
+                        <img src="images/finance.png">
+                    </div>
+                    <img src="images/cloud.png">
+                </div>
+                <div class="why_half__list">
+                    <p><span>TEST</span></p>
+                    <div class="why_half__listLabel"><img src="images/tick-inside-circle.png"></div>
+                    <div class="why_half__listContent"><p>Планирование на основе данных, полученных из надежных систем,
+                        в реальном времени.</p>
+                    </div>
+                    <div class="why_half__listLabel"><img src="images/tick-inside-circle.png"></div>
+                    <div class="why_half__listContent"><p>Автоматическое определение тенденций и зависимостей с помощью
+                        удобной технологии машинного
+                        обучения.</p></div>
+                    <div class="why_half__listLabel"><img src="images/tick-inside-circle.png"></div>
+                    <div class="why_half__listContent"><p>Повышение точности данных и доверия пользователей с помощью
+                        единого решения для всей
+                        аналитики.</p></div>
+                </div>
+            </div>
+
+            <div class="why_half__solutions">
+                <div class="why_half__imageBig">
+                    <img src="images/notebook.png">
+                    <div class="why_half__label">
+                        <img src="images/finance.png">
+                    </div>
+                </div>
+
+                <div class="why_half__list">
+                    <p><span>TEST2</span></p>
+                    <div class="why_half__listLabel"><img src="images/tick-inside-circle.png"></div>
+                    <div class="why_half__listContent"><p>Планирование на основе данных, полученных из надежных систем,
+                        в реальном времени.</p>
+                    </div>
+                    <div class="why_half__listLabel"><img src="images/tick-inside-circle.png"></div>
+                    <div class="why_half__listContent"><p>Автоматическое определение тенденций и зависимостей с помощью
+                        удобной технологии машинного
+                        обучения.</p></div>
+                    <div class="why_half__listLabel"><img src="images/tick-inside-circle.png"></div>
+                    <div class="why_half__listContent"><p>Повышение точности данных и доверия пользователей с помощью
+                        единого решения для всей
+                        аналитики.</p></div>
+                </div>
             </div>
         </div>
     </div>
@@ -367,7 +428,28 @@
 
 <section class="section function">
     <div class="container">
+        <h2>Функциональные возможности</h2>
+        <div class="function__wrapper">
+            <div class="function__item">
+                <p>Бизнес-аналитика</p>
+                <img src="images/tab1.png">
+            </div>
+            <div class="function__item">
+                <p>Планирование</p>
+                <img src="images/tab2.png">
+            </div>
+            <div class="function__item">
+                <p>Прогнозирование</p>
+                <img src="images/tab3.png">
+            </div>
+        </div>
+    </div>
+</section>
 
+<section class="section client">
+    <div class="container">
+        <h2>Выгоды для клиентов</h2>
+        <p><span>Начните принимать лучшие решения, опираясь на данные</span></p>
     </div>
 </section>
 
@@ -798,18 +880,18 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="/templates/sap/js/OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script>
+<script src="js/OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script>
 <!--<script src="--><!--js/owl.carousel.min.js"></script>-->
 <script src="/templates/sap/FlexSlider/jquery.flexslider-min.js"></script>
-<script src="/templates/sap/Remodal-1.1.1/src/remodal.js"></script>
-<script src="/templates/sap/js/scroll-to.js?1559575008"></script>
+<!--<script src="/templates/sap/Remodal-1.1.1/src/remodal.js"></script>-->
+<script src="scroll-to.js?1559575008"></script>
 
 <script src="/templates/sap/slickslider/slick.min.js"></script>
 <script src="/templates/sap/fancybox3/jquery.fancybox.min.js"></script>
-<script src="/templates/sap/js/main.js?1559575008"></script>
+<script src="js/main.js?1559575008"></script>
 <!--<script src="--><!--js/push.js"></script>-->
-<script src="/templates/sap/js/jquery.validate.min.js"></script>
-<script src="/templates/sap/js/jquery.maskedinput.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
 </body>
 
 </html>
