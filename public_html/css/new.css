@@ -95,7 +95,46 @@
     clear:both;
 }
 
+.why__title {
+    text-align: center;
+    color: #000000;
+    font-size: 42px;
+}
 
+.why_half {
+    text-align: center;
+}
+
+.why_half__content {
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+}
+
+.why_half__icon{
+    display: inline-block;
+}
+
+.why_half__text {
+    display: inline-block;
+}
+
+.why_half__imageBig {
+    display: inline-block;
+    width: 49%;
+}
+
+.why_half__list {
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+}
+
+.why {
+    padding: 75px 0 120px 0;
+    /*TODO: change on cross*/
+    background: url(../images/dots-pattern.jpg) left bottom repeat-x;
+}
 
 
 /*TODO: content*/
