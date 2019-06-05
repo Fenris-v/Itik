@@ -256,6 +256,8 @@ h2 {
 
 .function__wrapper {
     width: 100%;
+    letter-spacing: 0;
+    font-size: 0;
 }
 
 .function__item {
@@ -264,6 +266,10 @@ h2 {
     background-color: #ffac00;
     margin: 70px 0.2% 0;
     text-align: center;
+}
+
+.function__item:hover {
+    background: #A66F00;
 }
 
 .function__item p {
