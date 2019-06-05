@@ -1362,7 +1362,7 @@ img{border-style:none;}
 }
 
 #vnedrenie__input_submit, #broshura__input_submit{
-    background: url(../images/new-ico/white-button.png) center center no-repeat;
+    background: url(../images/white-button.png) center center no-repeat;
     border: none;
     color: #0e82e2;
 	cursor: pointer;
