@@ -77,6 +77,7 @@ h2 {
 
 .erp-solution-section__images {
     width: 100%;
+    text-align: center;
 }
 
 .erp-solution-section__images__item {
@@ -301,6 +302,7 @@ h2 {
 
 .client__content {
     width: 100%;
+    text-align: center;
 }
 
 .client__content__item {
@@ -480,12 +482,12 @@ h2 {
     display: inline-block;
 }
 
-.connect_half_right, .visual_half_left h2 {
+.connect_half_right h2, .visual_half_left h2 {
     line-height: 1;
     margin-bottom: 20px;
 }
 
-.connect_half_right, .visual_half_left p {
+.connect_half_right p, .visual_half_left p {
     font-size: 18px;
 }
 
