@@ -1,4 +1,4 @@
-.ineerPageTop {
+.innerPageTop {
     padding: 70px 0 45px;
 }
 .erp-solution-section__head {
@@ -96,7 +96,7 @@ Adaptive styles
 
 @media only screen and (max-width: 768px) {
 
-    .ineerPageTop {
+    .innerPageTop {
         padding: 30px 0;
     }
     .erp-solution-section__head,
