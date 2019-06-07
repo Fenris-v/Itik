@@ -327,17 +327,17 @@ h2 {
 .innerTryNow__rates__item {
     width: 100%;
     text-align: center;
+    font-size: 0;
+    letter-spacing: 0;
 }
 
 .innerTryNow__rates__item__current {
-    width: 31.83333%;
+    width: 32.33333%;
     display: inline-block;
     text-align: center;
     position: relative;
     transition: all 0.4s ease 0s;
     height: 370px;
-    font-size: 0;
-    letter-spacing: 0;
     margin: 0 0.5% 70px;
 }
 
@@ -843,6 +843,7 @@ h2 {
     left: 50%;
     transform: translate(-50%, -50%);
     top: 50%;
+    width: 90%;
 }
 
 .more__rate__item_top__price__wrapper p {
@@ -852,7 +853,7 @@ h2 {
 }
 
 .more__rate__item_top__price__wrapper span {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -869,6 +870,7 @@ h2 {
 .more__rate__item_top__desc p {
     color: #000000;
     font-size: 14px;
+    line-height: 1.5;
 }
 
 .more__rate__item_bottom {
