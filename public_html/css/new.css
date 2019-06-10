@@ -9,13 +9,13 @@ h2 {
     border: 2px solid;
 }
 
-.topNav__link_cta_yellow:hover{
+.topNav__link_cta_yellow:hover {
     background: #ffac00;
     color: #fff;
 }
 
 .topNav__item.parent.parent__point:before {
-    content:"\2022";
+    content: "\2022";
     font-size: 26px;
     font-weight: 700;
     line-height: 18px;
@@ -25,23 +25,23 @@ h2 {
     color: #ffac00;
 }
 
-.topNav_v2 .topNav_2levelList a{
+.topNav_v2 .topNav_2levelList a {
     color: #ffac00;
     text-decoration: none;
     font-size: 16px;
 }
 
-.topNav__link_yellow:hover:after{
+.topNav__link_yellow:hover:after {
     background: #ffac00;
 }
 
-.topNav_v2 .topNav_2levelList_yellow a{
+.topNav_v2 .topNav_2levelList_yellow a {
     color: #ffac00;
     text-decoration: none;
     font-size: 16px;
 }
 
-.topNav_2levelList_yellow a:hover{
+.topNav_2levelList_yellow a:hover {
     color: #ffac00;
     text-decoration: underline;
 }
@@ -59,7 +59,6 @@ h2 {
     display: block;
     text-align: center;
 }
-
 
 .erp-solution-section__ico_big {
     display: block;
@@ -103,10 +102,10 @@ h2 {
     font-size: 18px;
 }
 
-.container::after{
-    content:'';
-    display:block;
-    clear:both;
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
 }
 
 .why, .connect_half, .visual_half, .work_half {
@@ -131,7 +130,7 @@ h2 {
     padding: 45px 0;
 }
 
-.why_half__icon{
+.why_half__icon {
     height: 60px;
     width: 18%;
     display: inline-block;
@@ -241,7 +240,7 @@ h2 {
     float: right;
 }
 
-.owl-dots{
+.owl-dots {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -266,7 +265,6 @@ h2 {
 .owl-prev:hover {
     background: rgba(0, 0, 0, 0) url(../images/prev.png) no-repeat scroll 0 0 !important;
 }
-
 
 .function__wrapper {
     width: 100%;
@@ -338,9 +336,6 @@ h2 {
 }
 
 .innerTryNow__rates h2 {
-    text-align: center;
-    color: #000000;
-    font-size: 42px;
     padding: 50px;
 }
 
@@ -405,7 +400,6 @@ h2 {
     background: #f3f3f3;
 }
 
-
 /*ANALYTIC*/
 .innerPageTop__backgroundAnalytic {
     background: url("../images/analytic.png") no-repeat center center;
@@ -415,6 +409,7 @@ h2 {
 
 .analytic__links {
     text-align: center;
+    font-size: 0;
 }
 
 .analytic__links__item {
@@ -576,7 +571,7 @@ h2 {
 
 }
 
-.trial__marketing__offer_left, .trial__marketing__offer_right {
+.trial__marketing__offer_left {
     display: inline-block;
     width: 48%;
     margin: 60px 1% 0;
@@ -669,11 +664,11 @@ h2 {
     margin: 0 auto 30px;
 }
 
-.trial__form__try__check label{
+.trial__form__try__check label {
     cursor: pointer;
 }
 
-.trial__form__try__check input{
+.trial__form__try__check input {
     cursor: pointer;
 }
 
@@ -723,7 +718,6 @@ h2 {
     text-align: left;
     color: #c2c2c4;
 }
-
 
 /*TODO: project*/
 /*PROJECT*/
@@ -843,7 +837,7 @@ h2 {
 }
 
 .more__rate__item_top {
-    height: 360px;
+    height: 370px;
     background-color: #e4f5fd;
 }
 
@@ -882,7 +876,7 @@ h2 {
 }
 
 .more__rate__item_top__price__wrapper span {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -945,7 +939,24 @@ h2 {
 /*----------------------------------------------------------------
 Adaptive styles
 ----------------------------------------------------------------*/
+@media only screen and (max-width: 1300px) {
+
+    .project__arrow {
+        padding: 60px 10px;
+    }
+
+    .project__item__imageWrapper {
+        width: 140px;
+        height: 140px;
+        padding: 35px 0;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
+
+    h2 {
+        font-size: 34px;
+    }
 
     .topNav__link_cta_yellow {
         text-decoration: none;
@@ -977,6 +988,127 @@ Adaptive styles
         width: 30.33333%;
         margin: 0 1.5%;
     }
+
+    .analytic__desc h1 {
+        padding-top: 40px;
+    }
+
+    .analytic__desc p {
+        margin: 30px 0;
+        line-height: 1.4;
+    }
+
+    .analytic__desc__tryNow {
+        margin-bottom: 40px;
+    }
+
+    .analytic__desc_half__check {
+        display: block;
+        width: 100%;
+    }
+
+    .analytic__desc_half__check p {
+        margin: 15px 0;
+    }
+
+    .why_half__listContent {
+        padding: 5px 0;
+    }
+
+    .more__rate__item_top {
+        height: 390px;
+        background-color: #e4f5fd;
+    }
+
+    .more__rate__item_top__title p {
+        font-size: 18px;
+        padding-top: 15px;
+    }
+
+    .more__rate__item_top__price {
+        width: 100%;
+        top: 90px;
+    }
+
+    .more__rate__item_top__price__wrapper span {
+        font-size: 23px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .more__rate__item_top__desc {
+        top: 200px;
+        width: 90%;
+    }
+
+    .more__rate__item_top__desc p {
+        line-height: 1.3;
+    }
+
+    .trial__marketing p {
+        font-size: 30px;
+    }
+
+    .trial__marketing__offer__text {
+        padding-right: 30px;
+    }
+
+    .trial__marketing__offer__text p {
+        font-size: 20px;
+    }
+
+    .trial__marketing__offer, .trial__marketing__offer_left {
+        margin-top: 30px;
+    }
+
+    .trial__marketing__offer__label {
+        padding-left: 10px;
+        width: 30%;
+    }
+
+    .trial__marketing__offer__text {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .erp-solution-section__title_project {
+        margin: 20px 0 !important;
+    }
+
+    .project__how h2 {
+        font-size: 42px;
+        font-weight: bold;
+        margin: 0 auto;
+        padding: 20px 0;
+        line-height: 1;
+    }
+
+    .project__arrow {
+        padding: 45px 10px;
+    }
+
+    .project__arrow:nth-child(3n) {
+        display: none;
+    }
+
+    .project__item__wrapper {
+        width: 29%;
+    }
+
+    .project__item__imageWrapper {
+        width: 110px;
+        height: 110px;
+        padding: 20px 0;
+        margin-bottom: 10px;
+    }
+
+    .project__item__time {
+        margin-bottom: 10px;
+    }
+
+    .project__item p {
+        font-size: 16px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1002,20 +1134,195 @@ Adaptive styles
     .innerTryNow__rates__item__current {
         width: 49%;
     }
+
+    .innerTryNow__rates__item__current h3 {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .analyticPageTop, .connect, .visual, .trialPageTop, .logoPageTop, .project {
+        padding-bottom: 20px;
+    }
+
+    .analytic__desc p {
+        margin: 30px 0;
+        line-height: 1.2;
+        font-size: 25px;
+    }
+
+    .analytic__desc_half__check p {
+        opacity: 0.7;
+        color: #ffffff;
+        font-size: 18px;
+    }
+
+    .connect_half, .visual_half, .work_half {
+        padding-bottom: 50px;
+    }
+
+    .connect_half_left, .visual_half_right {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .connect_half_right, .visual_half_left {
+        display: block;
+        width: 100%;
+    }
+
+    .why_half__listLabel {
+        padding: 10px 0;
+    }
+
+    .visual_half, .work_half {
+        margin: 0;
+    }
+
+    .videoAfter {
+        padding: 0 0 80px;
+    }
+
+    .section-title--black {
+        margin-bottom: 20px;
+    }
+
+    .analytic__links__item {
+        width: 32%;
+    }
+
+    .more__rate__item {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .more__rate__item_top {
+        height: 340px;
+    }
+
+    .more__rate__item_top__price {
+        top: 90px;
+    }
+
+    .more__rate__item_top__desc {
+        top: 200px;
+    }
+
+    .more__rate__item_bottom {
+        height: 280px;
+    }
+
+    .trial__marketing p {
+        font-size: 20px;
+    }
+
+    .trial__marketing__offer_left {
+        display: block;
+        width: 100%;
+    }
+
+    .trial__form__try {
+        width: auto;
+    }
+
+    .questions_half {
+        display: block;
+        width: 100%;
+    }
+
+    .erp-solution-section__head__inline_project {
+        margin-bottom: 0;
+    }
+
+    .project {
+        padding: 0;
+    }
+
+    .backgroundProject {
+        height: 850px;
+        background-size: cover;
+    }
+
+    .project__how h2 {
+        font-size: 30px;
+    }
+
+    .project__item__wrapper {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .project__item p {
+        width: 100%;
+    }
+
+    .project__arrow:nth-child(3n) {
+        display: inline-block;
+    }
+
+    .project__arrow:nth-child(4n+4) {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 640px) {
 
+    .analytic__links__item {
+        margin-top: 30px;
+    }
+
+    .analytic__links__item p {
+        margin-top: 15px;
+    }
+
+    .analytic__desc h1 {
+        font-size: 35px;
+        line-height: 1.1;
+    }
+
+    .analytic__desc p {
+        margin: 20px 0;
+        font-size: 20px;
+    }
+
+    .analytic__desc__tryNow {
+        margin: 0;
+    }
+
+    .questions_half__title__icon {
+        width: 15%;
+        padding-right: 1%;
+    }
+
+    .questions_half__title__text {
+        width: 84%;
+    }
+
+    .questions hr {
+        display: none;
+    }
+
+    .backgroundProject {
+        height: 920px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
 
-    .erp-solution-section__images__item {
+    h2 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .erp-solution-section__images__item, .erp-solution-section__images__item:nth-last-of-type(1) {
         width: 100%;
     }
 
     .why_half__content {
         padding: 0;
+        width: 48%;
+        display: inline-block;
     }
 
     .why_half__icon, .why_half__text {
@@ -1023,6 +1330,15 @@ Adaptive styles
         text-align: center;
         width: 100%;
         margin: 20px 0 0;
+    }
+
+    .why_half__list span {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    .why_half__listContent {
+        line-height: 1.3;
     }
 
     .why hr {
@@ -1037,5 +1353,72 @@ Adaptive styles
         width: 100%;
         display: block;
         margin-top: 40px;
+    }
+
+    .client__ads {
+        font-size: 22px;
+    }
+
+    .client__content__item {
+        width: 49%;
+        margin: 0 0.5%;
+    }
+
+    .client__content__item p {
+        font-size: 16px;
+    }
+
+    .innerTryNow__rates h2 {
+        font-size: 30px;
+        line-height: 1.2;
+        padding-top: 0;
+    }
+
+    .innerTryNow__rates__item__current {
+        display: block;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .analytic__links__item {
+        width: 49%;
+    }
+
+    .analytic__desc h1 {
+        font-size: 28px;
+        padding-top: 20px;
+    }
+
+    .analytic__desc p {
+        text-align: left;
+    }
+
+    .more__rate__item_top {
+        height: 390px;
+    }
+
+    .more__rate__item_bottom {
+        height: 350px;
+    }
+
+    .more__rate__item_bottom__list li {
+        margin-top: 10px;
+    }
+
+    .project__how h2 {
+        line-height: 1;
+        font-size: 25px;
+    }
+
+    .project__item__wrapper {
+        width: 49%;
+    }
+
+    .project__arrow {
+        display: none !important;
+    }
+
+    .fixed__title h2 {
+        padding: 0;
     }
 }
