@@ -78,12 +78,15 @@ h2 {
 .erp-solution-section__images {
     width: 100%;
     text-align: center;
+    font-size: 0;
+    letter-spacing: 0;
 }
 
 .erp-solution-section__images__item {
-    width: 32%;
     display: inline-block;
     text-align: center;
+    width: 30.33333%;
+    margin: 0 1.5%;
 }
 
 .erp-solution-section__images__item span {
@@ -94,6 +97,10 @@ h2 {
     font-weight: 400;
     text-transform: uppercase;
     font-style: oblique;
+}
+
+.erp-solution-section__images p {
+    font-size: 18px;
 }
 
 .container::after{
@@ -171,10 +178,12 @@ h2 {
     width: 49%;
     text-align: left;
     margin-top: -80px;
+    font-size: 0;
 }
 
 .why_half__list span {
     font-weight: bold;
+    font-size: 24px;
 }
 
 .why_half__listLabel {
@@ -182,6 +191,7 @@ h2 {
     width: 10%;
     padding: 15px 0;
     vertical-align: middle;
+    margin-right: 2%;
 }
 
 .why_half__listContent {
@@ -189,6 +199,7 @@ h2 {
     width: 88%;
     padding: 15px 0;
     vertical-align: middle;
+    font-size: 18px;
 }
 
 .owl-carousel .owl-theme .owl-loaded .owl-drag {
@@ -261,6 +272,7 @@ h2 {
     width: 100%;
     letter-spacing: 0;
     font-size: 0;
+    text-align: center;
 }
 
 .function__item {
@@ -305,18 +317,24 @@ h2 {
 .client__content {
     width: 100%;
     text-align: center;
+    font-size: 0;
 }
 
 .client__content__item {
     display: inline-block;
-    width: 32.5%;
+    width: 31.333333%;
     text-align: center;
     padding-top: 60px;
+    margin: 0 1%;
 }
 
 .client__content__item img {
     height: 80px;
     margin-bottom: 40px;
+}
+
+.client__content__item p {
+    font-size: 18px;
 }
 
 .innerTryNow__rates h2 {
@@ -922,4 +940,102 @@ h2 {
     transform: translate(-50%, -50%);
     width: 80%;
     left: 50%;
+}
+
+/*----------------------------------------------------------------
+Adaptive styles
+----------------------------------------------------------------*/
+@media only screen and (max-width: 1024px) {
+
+    .topNav__link_cta_yellow {
+        text-decoration: none;
+        padding: 3px;
+    }
+
+    .why_half__imageBig {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .why_half__list {
+        margin-top: 20px;
+        display: block;
+        width: 100%;
+    }
+
+    .why_half__list span {
+        text-align: center;
+        display: block;
+    }
+
+    .function__item img:hover {
+        transform: scale(1);
+    }
+
+    .erp-solution-section__images__item {
+        width: 30.33333%;
+        margin: 0 1.5%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .section {
+        padding: 20px 0 90px 0;
+    }
+
+    .erp-solution-section__images__item {
+        width: 47%;
+        margin-bottom: 40px;
+    }
+
+    .erp-solution-section__images__item:nth-last-of-type(1) {
+        width: 47%;
+        margin-bottom: 0;
+    }
+
+    .function__item, .client__content__item {
+        width: 48%;
+    }
+
+    .innerTryNow__rates__item__current {
+        width: 49%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .erp-solution-section__images__item {
+        width: 100%;
+    }
+
+    .why_half__content {
+        padding: 0;
+    }
+
+    .why_half__icon, .why_half__text {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 20px 0 0;
+    }
+
+    .why hr {
+        display: none;
+    }
+
+    .why_half__solutions {
+        margin-top: 100px;
+    }
+
+    .function__item {
+        width: 100%;
+        display: block;
+        margin-top: 40px;
+    }
 }
