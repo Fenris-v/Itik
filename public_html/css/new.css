@@ -180,13 +180,15 @@ h2 {
 .why_half__listLabel {
     display: inline-block;
     width: 10%;
-    padding: 20px 0;
+    padding: 15px 0;
+    vertical-align: middle;
 }
 
 .why_half__listContent {
     display: inline-block;
     width: 88%;
     padding: 15px 0;
+    vertical-align: middle;
 }
 
 .owl-carousel .owl-theme .owl-loaded .owl-drag {
@@ -417,6 +419,7 @@ h2 {
     display: block;
     width: fit-content;
     height: fit-content;
+    margin: auto;
 }
 
 .analytic__desc h1 {
@@ -435,17 +438,17 @@ h2 {
 }
 
 .analytic__desc__tryNow {
-    width: fit-content;
-    margin: 0 auto;
+    text-align: center;
 }
 
 .analytic__desc__tryNow a {
-    display: block;
+    display: inline-block;
     padding: 15px 50px;
     background-color: #ffac00;
     text-decoration: none;
-    width: fit-content;
     color: #FFFFFF;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .analytic__desc_half {
@@ -648,6 +651,14 @@ h2 {
     margin: 0 auto 30px;
 }
 
+.trial__form__try__check label{
+    cursor: pointer;
+}
+
+.trial__form__try__check input{
+    cursor: pointer;
+}
+
 #trial__form__try__comment {
     margin-bottom: 50px;
 }
@@ -692,6 +703,7 @@ h2 {
 .questions_half__answer p {
     font-size: 16px;
     text-align: left;
+    color: #c2c2c4;
 }
 
 
@@ -718,7 +730,6 @@ h2 {
 .project__how h2 {
     font-size: 42px;
     font-weight: bold;
-    width: 60%;
     margin: 0 auto;
     padding: 60px 0;
     line-height: 1;
@@ -738,10 +749,6 @@ h2 {
 }
 
 .project__item {
-    height: 160px;
-    width: 160px;
-    background: #FFFFFF;
-    border-radius: 80px;
 
 }
 
@@ -753,14 +760,18 @@ h2 {
 
 .project__item__imageWrapper {
     padding: 45px 0;
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    background: #FFFFFF;
+    margin: 0 auto 30px;
 }
 
 .project__item__time {
     background: #66b5df;
-    width: 90%;
-    height: 30px;
-    margin: 30px auto;
-
+    width: fit-content;
+    padding: 10px 30px;
+    margin: 0 auto 30px;
 }
 
 .project__item p {
@@ -814,8 +825,8 @@ h2 {
 }
 
 .more__rate__item_top {
-    height: 350px;
-    background-color: #00a1f7;
+    height: 360px;
+    background-color: #e4f5fd;
 }
 
 .more__rate__item_top__title p {
@@ -853,7 +864,7 @@ h2 {
 }
 
 .more__rate__item_top__price__wrapper span {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
 }
